@@ -18,4 +18,5 @@ function save() {
   let strCount = " " + count + " / ";
   saveEl.textContent += strCount;
   countEl.textContent = 0;
+  count = 0;
 }
