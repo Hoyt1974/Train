@@ -7,15 +7,15 @@ console.log(saveEl);
 
 function increment() {
   count += 1;
-  countEl.innerText = count;
+  countEl.textContent = count;
 }
 function decrement() {
   count -= 1;
-  countEl.innerText = count;
+  countEl.textContent = count;
 }
 
 function save() {
   let strCount = " " + count + " / ";
-  saveEl.innerText += strCount;
-  console.log(count);
+  saveEl.textContent += strCount;
+  countEl.textContent = 0;
 }
